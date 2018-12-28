@@ -1,0 +1,42 @@
+{
+  "ecmaVersion": "6",
+  "libs": [
+    "jquery",
+    "chai",
+    "browser",
+    "underscore"
+  ],
+  "loadEagerly": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.html"
+  ],
+  "dontLoad": [
+    "node_modules/**"
+  ],
+  "plugins": {
+    "doc_comment": true,
+    "commonjs": {},
+    "modules": {
+      "dontLoad": "",
+      "load": "",
+      "modules": ""
+    },
+    "es_modules": {},
+    "requirejs": {
+      "baseURL": "",
+      "paths": "",
+      "override": ""
+    },
+    "angular": {},
+    "node": {
+      "dontLoad": "",
+      "load": "",
+      "modules": ""
+    },
+    "node_resolve": {},
+    "complete_strings": {
+      "maxLength": 15
+    }
+  }
+}
